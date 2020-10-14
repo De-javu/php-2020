@@ -1,0 +1,11 @@
+{
+    "name":"italomorales/text",
+    "autoload": {
+        "psr-4": {
+            "Text\\": "scr/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
