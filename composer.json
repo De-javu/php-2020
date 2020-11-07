@@ -1,17 +1,19 @@
 {
-    "name":"italomorales/text",
-    "autoload": {
-        "psr-4": {
-            "Text\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+    "name": "super/php-2020",
+    "description": "EJEMPLO COMPOSER",
+    "type": "library",
+    "require": {
+        "jenssegers/date": "^3.1@dev"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.4"
+        "phpunit/php-token-stream": "^4.0@dev"
     },
-    "require": {
-        "nesbot/carbon": "^2.41"
-    }
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andres Pardo",
+            "email": "andrespardo5151@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
